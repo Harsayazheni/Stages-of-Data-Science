@@ -14,6 +14,7 @@ To Analyze a data set with Various stages of data science.
 5.Implement any two Advanced data Visualization 
 
 ## Code
+```
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -56,8 +57,9 @@ plt.figure(figsize=(10, 6))
 sns.boxplot(x='day', y='tip_pct', hue='group_type', data=tips)
 plt.title("Tip Percentage Distribution by Day and Group Type")
 plt.show()
-
+```
 ## Output
+![Screenshot 2024-11-15 114423](https://github.com/user-attachments/assets/2b7ac997-12c2-4f52-a323-b79e14212a58)
 
 ![Screenshot 2024-11-15 114437](https://github.com/user-attachments/assets/cc8f5e1c-c023-41ea-948d-8cd219760a22)
 ![Screenshot 2024-11-15 114454](https://github.com/user-attachments/assets/329c311a-5d82-4434-90ce-72dce75f4f2a)
